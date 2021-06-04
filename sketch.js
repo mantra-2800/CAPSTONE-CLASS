@@ -97,7 +97,7 @@ StarsS();
 if(astreoidG.isTouching(rocket)){
   gameState="end";
   text("PRESS R TO RESET",100,300);
-  rocket.destroy();
+  //rocket.destroy();
   astreoidG.destroyEach();
   beamG.destroyEach();
   game.addImage(over);
